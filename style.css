@@ -88,9 +88,10 @@ body{
     margin-bottom: 1rem;
 }
 .home-text .text-h1{
-    font-size: 4rem;
     margin-bottom: 1rem;
     line-height: 4rem;
+    font-size: 5vh;
+    width: 100%;
     
 }
 .home-text .text-h1 span{

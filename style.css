@@ -34,17 +34,17 @@ body{
     padding: 18px 40px;
     box-shadow: 0 0.1rem 0.5rem #ccc;
     width: 100%;
-    background: #CF8C95;
+    background: #AE0861;
     transition: all 0.5s;
     position: fixed;
 }
 .navigation .logo{
-    color: #a32133;
+    color: #d870a7;
     font-size: 1.7rem;
     font-weight: 600;
 }
 .logo span{
-    color: var(--dark);
+    color: var(--white);
 }
 .navigation ul{
     display: flex;
@@ -52,7 +52,7 @@ body{
     gap: 5rem;
 }
 .navigation ul li a{
-    color: var(--dark);
+    color: var(--white);
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
@@ -73,13 +73,13 @@ body{
     width: 28px;
     height: 3px;
     border-radius: 3px;
-    background: var(--dark);
+    background: var(--white);
     margin: 5px auto;
     transition: all 0.3s;
 }
 .menu .bar:nth-child(1),
 .menu .bar:nth-child(3){
-    background: #a32133;
+    background: #d870a7;
 }
 .home{
     width: 100%;
@@ -94,7 +94,7 @@ body{
 }
 .home-text .text-h4{
     font-size: 1.5rem;
-    color: #a32133;
+    color: #AE0861;
     margin-bottom: 1rem;
 }
 .home-text .text-h1{
@@ -108,21 +108,21 @@ body{
     font-size: 5vh;
     margin-bottom: 1rem;
     line-height: 4rem;
-    color: #a32133;
+    color: #AE0861;
 }
 .home-text p{
     margin-bottom: 4rem;
 }
 .home-btn{
     padding: 15px 45px;
-    background: #a32133;
+    background: #AE0861;
     color: var(--white);
     border-radius: 10px;
     font-weight: 700;
     transition: all 0.5s;
 }
 .home-btn:hover{
-    background: #a32133;
+    background: #a10419;
 }
 .home-img img{
     width: 100%;
@@ -187,8 +187,8 @@ body{
 /* ESTILO DO SOBRE */
 section.sobre {
     padding: 80px 4%;
-    background-color: #a32133;
-    box-shadow: 0 0 40px 10px #a32133;
+    background-color: #AE0861;
+    box-shadow: 0 0 40px 10px #AE0861;
     border-radius: 30px;
 }
 
@@ -205,18 +205,18 @@ section.sobre .flex {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
-    color: #000;
+    color: #fff;
 }
 
 .sobre .txt-sobre h2 span {
-    color: #CF8C95;
+    color: #d870a7;
     display: block;
 }
 
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
-    color: #000;
+    color: #fff;
 }
 
 .btn-social button {
@@ -224,7 +224,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #a32133;
+    background-color: #AE0861;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -267,11 +267,45 @@ section.sobre .flex {
     .img-sobre img{
         width: 100%;
     }
+
+    /* TOPO DO SITE */
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /* ESPECIALIDADES */
+    section.especiliadades {
+        padding: 40px 8%;
+    }
+
+    /* SOBRE */
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
 }
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
-    padding: 40px 4%;
+    padding: 100px 4%;
 }
 
 section.topo-do-site .flex {

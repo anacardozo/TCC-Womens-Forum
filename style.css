@@ -162,7 +162,7 @@ body{
     }
     /*main*/
     .home{
-        padding: 100px 2%;
+        padding: 40px 2%;
         flex-direction: column;
         text-align: center;
         overflow: hidden;
@@ -291,16 +291,6 @@ section.sobre .flex {
         padding: 40px 8%;
     }
 
-    /* SOBRE */
-    section.sobre {
-        padding: 80px 8%;
-    }
-
-    .sobre .txt-sobre h2 {
-        font-size: 34px;
-        line-height: 35px;
-        text-align: center;
-    }
 }
 
 /* ESTILO DO MEIO DO SITE */
@@ -470,4 +460,52 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
+}
+
+/* END FOOTER*/
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especiliadades {
+    padding: 40px 4%;
+}
+
+section.especiliadades .flex {
+    gap: 60px;
+}
+
+.especiliadades .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    background-color: #AE0861;
+    
+}
+
+.especiliadades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px 10px #AE0861;
+}
+
+.especiliadades .especialidades-box i {
+    font-size: 70px;
+    color: #d870a7;
+}
+
+.especiliadades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.especiliadades .interface h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: #AE0861;
+}
+
+.especiliadades .interface h2 span {
+    color: #d870a7;
+
 }

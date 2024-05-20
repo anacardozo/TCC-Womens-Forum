@@ -291,6 +291,29 @@ section.sobre .flex {
         padding: 40px 8%;
     }
 
+    /* DIREITOS DO SITE */
+
+    section.direitos-do-site .flex {
+        gap: 40px;
+    }
+
+    section.direitos-do-site {
+        padding: 20px 8%;
+    }
+
+    .direitos-do-site h1 {
+        font-size: 30px;
+    }
+
+    .direitos-do-site .img-direitos-site img {
+        width: 100%;
+    }
+
+    /* ESPECIALIDADES */
+    section.especiliadades {
+        padding: 40px 8%;
+    }
+
 }
 
 /* ESTILO DO MEIO DO SITE */
@@ -507,5 +530,37 @@ section.especiliadades .flex {
 
 .especiliadades .interface h2 span {
     color: #d870a7;
+
+}
+
+
+/* ESTILO DOS DIREITOS */
+section.direitos-do-site {
+    padding: 100px 4%;
+}
+
+section.direitos-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.direitos-do-site h1 {
+    color: #000;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.direitos-do-site .txt-direitos-site h1 span {
+    color: #a32133;
+}
+
+.direitos-do-site .txt-direitos-site p {
+    color: #000;
+    margin: 40px 0;
+}
+
+.direitos-do-site .interface h2 span{
+    color: #AE0861;
 
 }
